@@ -7,8 +7,19 @@ package com.javaonlinecourse.b1lesson1.homework;
  */
 public class HW01 {
     public static void main(String[] args) {
-        double a,b,c,h;
-        int kk;
-        System.out.println( /* вывести результат - это кстати комментарий */ );
+        int a,b,c,h;
+        double p,s,v,i,r;
+        a=3;
+        b=4;
+        c=5;
+        h=6;
+        i=1;
+        r=3;
+        p = ((a+b+c)/2);
+        s = Math.sqrt(p*(p - a) * (p - b) * (p - c));
+        v =  Math.round (i/r  * (s * h));
+        System.out.println(v);
+
     }
 }
+
