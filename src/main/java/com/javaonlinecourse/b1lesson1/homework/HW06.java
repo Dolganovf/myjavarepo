@@ -8,6 +8,10 @@ package com.javaonlinecourse.b1lesson1.homework;
 public class HW06 {
     public static void main(String[] args) {
         double l,s;
-        System.out.println( /* вывести результат*/);
+        l = 6;
+
+        s = Math.pow(l,2) / (4*Math.PI);
+
+        System.out.println("Площадь:" + s);
     }
 }

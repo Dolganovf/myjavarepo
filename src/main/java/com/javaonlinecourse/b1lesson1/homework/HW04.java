@@ -8,6 +8,10 @@ package com.javaonlinecourse.b1lesson1.homework;
 public class HW04 {
     public static void main(String[] args) {
         double a,b;
-        System.out.println( /* вывести результат */);
+        a = 4;
+        b = 9;
+
+        System.out.println("Среднее арифметическое: " + (a + b)/2);
+        System.out.println("Среднее геометрическое: " + Math.pow((a * b),0.5));
     }
 }

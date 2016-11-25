@@ -7,7 +7,15 @@ package com.javaonlinecourse.b1lesson1.homework;
  */
 public class HW02 {
     public static void main(String[] args) {
-        double R, r, h, S, V;
-        System.out.println(/*вывести результаты*/);
+        double r, R, h, S, V, l;
+        R = 20;
+        r = 10;
+        h = 30;
+        l = Math.pow(h * h + (R - r) * (R - r),0.5);
+        V = (Math.PI * h * (Math.pow(R,2) + R * r + Math.pow(r,2)))/3;
+        S = Math.PI*(Math.pow(r,2) + (R + r) * l + Math.pow(R,2));
+
+        System.out.println("обьем " +V);
+        System.out.println("Площадь  " +S);
     }
 }

@@ -8,6 +8,12 @@ package com.javaonlinecourse.b1lesson1.homework;
 public class HW03 {
     public static void main(String[] args) {
         int a, V, s;
-        System.out.println( /* вывести результат */);
+        a = 5;
+
+        V =  a * a * a;
+        s = a * a * 4;
+
+        System.out.println("Обьем куба: " + V);
+        System.out.println("Площадь боковой поверхности куба: " + s);
     }
 }
